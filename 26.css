@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    color: #333;
+}
+.Suazi{
+    color: #0C979E;
+    font-size: 35px;
+    font-family: 'Arial', sans-serif;
+    font-stretch: expanded;
+}
+/* Top Bar */
+.top-bar {
+    background-color: #001F0F;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 60px;
+}
+.open{
+    color: white;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    flex: 1;
+}
+
+.contact-button {
+    border: none;
+    color: white;
+    background-color: #0C979E;
+    padding: 15px 100px  15px 100px;
+    font-size: 18px;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    align-items: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #D3D3D3;
+    justify-content: flex-end;
+    padding: 10px 55px;
+    top:80px;
+    right: 29px; 
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+
+    
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Main content */
+.content {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+}
+.image-section {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+.image {
+    width: 200px;
+    height: 200px;
+    background-color: #c4c4c4; 
+    border-radius: 10px;
+}
+.image1 { 
+    background-image: url('image1.jpg'); 
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    top: 300px;
+    left: 200px;
+    border-radius: 0%;
+}
+
+.image2 { 
+    background-image: url('image2.jpg'); 
+    background-size: cover;
+    height: 400px;
+    width: 250px;
+    position: absolute;
+    border-radius: 60px;
+    top: 90px;
+    left: -100px; 
+}
+.image3 { 
+    background-image: url('image3.jpg'); 
+    background-size: cover; 
+    height: 110px;
+    width: 90px;
+    position: absolute;
+    top: 10px;
+    left: 190px;
+    border-radius: 0%;
+}
+.image4 { 
+    background-image: url('image4.jpg'); 
+    background-size: cover;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    border-radius: 100%;
+    top: 140px;
+    left: 260px; 
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    background-color:#9AB2CA;
+    border-radius: 50%;
+    position: absolute;
+    top:520px;
+    left: -50px;
+}
+.text-section {
+    flex: 2;
+    max-width: 500px;
+    margin-left: -400px;
+}
+.text-section h2 {
+    color: #0C979E;
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-left: -400px;
+}
+.text-section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    margin-left: -400px;
+    max-width: 500px;
+
+}
+.call-us-button {
+    background-color: #0C979E;
+    color:white;
+    border:none;
+    padding:20px 90px;
+    border-radius: 90px;
+    margin-top:12px;
+    cursor:pointer;
+    margin-left: -400px;
+}
